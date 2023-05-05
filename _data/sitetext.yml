@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   services:
     title: "Services"
-    text: "CodePika creates incredible apps for Apple platforms."
+    text: "CodePika creates incredible apps for all Apple platforms."
     section: services
     list:
       - title: "Design"
