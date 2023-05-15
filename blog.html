@@ -1,0 +1,16 @@
+---
+layout: page
+title: Blog
+---
+<div class="col-lg-12 text-center">
+	<h2 class="section-heading text-uppercase">Latest Posts</h2>
+</div>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
