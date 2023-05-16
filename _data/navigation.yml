@@ -26,7 +26,7 @@ en: &DEFAULT_EN
     # - title: "Theme Source"
     #   url: https://github.com/raviriley/agency-jekyll-theme/
     - title: "Blog"
-      url: blog.html
+      url: /blog.html
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -54,6 +54,8 @@ es: &DEFAULT_ES
       section: contacto
     # - title: "Fuente de la plantilla"
     #   url: https://github.com/raviriley/agency-jekyll-theme/
+    - title: "Blog"
+      url: /blog.html
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
