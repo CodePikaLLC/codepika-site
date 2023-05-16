@@ -1,0 +1,14 @@
+.white { color: #e0e0e1; }
+.keywords { color: #ff79bd; }
+.strings { color: #ff8170; }
+.numbers { color: #d9c97c; }
+.type-def { color: #6bdfff; }
+.type { color: #dabaff; }
+.variable-dec { color: #4eb0cb; }
+.function-dec { color: #4eb0cb; }
+.variable-use { color: #78c2b3; }
+.property { color: #b181ec; }
+.comment { color: #7e8c98; }
+
+
+.red { color: #ff0000; }
