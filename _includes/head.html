@@ -22,34 +22,34 @@
 
   <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-  <!-- start custom head snippets -->
-
-  <!-- insert favicons. use https://favicon.io/favicon-converter/ -->
-
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/img/favicon_io/apple-touch-icon.png" | absolute_url }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/img/favicon_io/favicon-32x32.png" | absolute_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/img/favicon_io/favicon-16x16.png" | absolute_url }}">
-  <link rel="manifest" href="{{ "/assets/img/favicon_io/site.webmanifest" | absolute_url }}">
-  <link rel="shortcut icon" href="{{ "/assets/img/favicon_io/favicon.ico" | absolute_url }}">
-
-  <!-- end custom head snippets -->
-
   <!-- Bootstrap core CSS -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="{{ '/assets/css/bootstrap.min.css' | relative_url }}"  rel="stylesheet" />
 
   <!-- Custom fonts for this template -->
-  <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="{{ '/assets/css/all.min.css' | relative_url }}" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this theme -->
-  <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
-  <link href="assets/css/agency.css" rel="stylesheet" />
+  <!--<link href="{{ '/assets/css/agency.min.css' | relative_url }}" rel="stylesheet">-->
+  <link href="{{ '/assets/css/agency.css' | relative_url }}" rel="stylesheet" />
+
+  <!-- start custom head snippets -->
+
+  <!-- insert favicons. use https://favicon.io/favicon-converter/ -->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/favicon_io/apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicon_io/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/img/favicon_io/favicon-16x16.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/assets/img/favicon_io/site.webmanifest' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/assets/img/favicon_io/favicon.ico' | relative_url }}">
+
+  <!-- end custom head snippets -->
 
   <!-- Page container change top padding when nav shrinks -->
-  {% if page.layout == "page" %}
+  {% if page.layout == "page" or page.layout == "post" %}
   <style>
     #pagecontainer {
       padding-top: 150px;

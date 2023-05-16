@@ -22,7 +22,7 @@ email      : no-reply@codepika.com #this is also the email contact forms will go
 description: "CodePika software development studio"
 author     : Chris Ameter
 logo:     #optional, defaults to site title
-  path: assets\img\CODE PIKA-white-letters.png
+  path: \assets\img\CODE PIKA-white-letters.png
   # height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
