@@ -1,4 +1,4 @@
-.highlight { background: #292a2f; padding: 16px; overflow: auto; border-radius: 0.75em }
+.highlight { font-size: 1em; background: #292a2f; padding: 16px; overflow: auto; border-radius: 0.5em }
 .highlight code { color: #e0e0e1; font-family: "Source Code Pro", Menlo, monospace }
 .highlight pre { background-color: #292a2f; }
 .highlight .hll { background-color: #292a2f; }
@@ -74,9 +74,9 @@
 .highlight .language-swift .no+.o+.kt { color: inherit }
 /* function declaration */
 .highlight .language-swift .kd+.nf { color: #4eb0cb }
-/* operator, property */
+/* property usage */
 .highlight .language-swift .o+.n { color: inherit }
-/* operator, function */
+/* function usage */
 .highlight .language-swift .o+.nf { color: inherit }
-/* variable, operator, name */
-.highlight .language-swift .nv+.o+.n { color: inherit }
+/* variable assignment */
+.highlight .language-swift .nv+.o+.n { color: #e0e0e1 }
