@@ -48,3 +48,6 @@ $contact-image: "{{ site.data.style.contact-image }}";
 //     -ms-user-select: none;
 //     user-select: none;
 // }
+
+// Blog 
+@import "blog.scss";
