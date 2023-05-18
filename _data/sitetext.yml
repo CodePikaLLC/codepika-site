@@ -33,7 +33,7 @@ en: &DEFAULT_EN
 
   team:
     title: "About Me"
-    text: "Chris has more than twenty years experience designing and developing software for public and private sector organizations. Before founding CodePika, he helped businesses integrate cloud resources into their iOS, iPadOS, and macOS apps as a Software Engineer for Amazon Web Services (AWS) where he developed and maintained the open-source Amplify Library for Swift.  He holds an M.S. in Information Technology from Carnegie Mellon and a B.S. in Computer Science from Troy."
+    text: "Chris has more than twenty years experience designing and developing software for public and private sector organizations. Before founding CodePika, he helped businesses integrate cloud resources into their iOS, iPadOS, and macOS apps as a Software Engineer for Amazon Web Services (AWS) where he developed and maintained the open-source Amplify Library for Swift.  Chris has a Computer Science background and holds an M.S. from Carnegie Mellon and a B.S. from Troy."
     subtext: ""  
     section: team
     people:
